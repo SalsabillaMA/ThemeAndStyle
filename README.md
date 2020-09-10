@@ -10,9 +10,9 @@ Hasil tampilan
 
 ![alt text](2.png)
 
-- Saat Button ditekan 
+- Saat Button ditekan akan terlihat lebih gelap
 
-![alt text](2.png) 
+![alt text](3.png) 
 
 terdapat :
 
