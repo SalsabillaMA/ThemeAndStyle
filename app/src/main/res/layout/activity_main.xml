@@ -40,34 +40,17 @@
 
         </FrameLayout>
 
-        <Button
-            style="@style/ButtonGeneral"
-            android:text="@string/buy" />
+        <TextView
+            style="@style/TextContent.Black"
+            android:layout_marginTop="@dimen/activity_vertical_margins"
+            android:layout_marginBottom="8dp"
+            android:text="@string/dummy_value"
+            android:textSize="32sp" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/activity_horizontal_margins"
-            android:layout_marginRight="@dimen/activity_horizontal_margins"
-            android:layout_marginBottom="@dimen/activity_vertical_margins">
-
-            <TextView
-                style="@style/TextContent"
-                android:layout_toEndOf="@id/profile_image"
-                android:layout_toRightOf="@+id/profile_image"
-                android:text="@string/my_name"
-                android:textColor="@android:color/black" />
-            />
-
-            <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profile_image"
-                android:layout_width="56dp"
-                android:layout_height="56dp"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="@dimen/activity_horizontal_margins"
-                android:src="@drawable/photo_2" />
-
-        </RelativeLayout>
+        <TextView
+            style="@style/TextContent.Subtitle"
+            android:layout_marginBottom="@dimen/activity_vertical_margins"
+            android:text="@string/stock" />
 
         <TextView
             style="@style/TextContent"
@@ -138,17 +121,34 @@
             android:layout_marginBottom="8dp"
             android:text="@string/seller" />
 
-        <TextView
-            style="@style/TextContent.Black"
-            android:layout_marginTop="@dimen/activity_vertical_margins"
-            android:layout_marginBottom="8dp"
-            android:text="@string/dummy_value"
-            android:textSize="32sp" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/activity_horizontal_margins"
+            android:layout_marginRight="@dimen/activity_horizontal_margins"
+            android:layout_marginBottom="@dimen/activity_vertical_margins">
 
-        <TextView
-            style="@style/TextContent.Subtitle"
-            android:layout_marginBottom="@dimen/activity_vertical_margins"
-            android:text="@string/stock" />
+            <TextView
+                style="@style/TextContent"
+                android:layout_toEndOf="@id/profile_image"
+                android:layout_toRightOf="@+id/profile_image"
+                android:text="@string/my_name"
+                android:textColor="@android:color/black" />
+            />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="56dp"
+                android:layout_height="56dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/activity_horizontal_margins"
+                android:src="@drawable/photo_2" />
+
+        </RelativeLayout>
+
+        <Button
+            style="@style/ButtonGeneral"
+            android:text="@string/buy" />
 
 
     </LinearLayout>
