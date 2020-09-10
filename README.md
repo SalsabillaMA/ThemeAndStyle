@@ -1,5 +1,9 @@
 # Theme And Style
 
+` Theme atau tema merupakan sebuah style yang diterapkan khusus untuk
+activity dan application pada berkas AndroidManifest.xml.
+
+
 Hasil tampilan
 
 - Masuk Aplikasi
